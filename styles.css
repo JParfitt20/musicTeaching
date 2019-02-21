@@ -130,6 +130,48 @@ p{
 
 }
 
+/* -------Form styling--------- */
+form{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width:50%;
+  margin:auto;
+}
+ div[role='group']{
+  border:none;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-around;
+}
+
+div[role='group-options']{
+ border:none;
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 20px;
+ justify-content: space-around;
+}
+
+
+
+
+
+
+label{
+  font-size: 1.5rem;
+
+}
+
+#email,
+#name,
+#message{
+  font-size:1.5rem;
+}
+#message{
+  height:7.5rem;
+  width:100%;
+}
 
 
 
