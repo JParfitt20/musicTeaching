@@ -22,8 +22,8 @@
   background:
     linear-gradient(#603,black, transparent 70%),
     linear-gradient(to top, white, transparent 25%),
-    url(img/piano.jpg),
-    top center,
+    url(img/piano_header.jpg),
+    top,
     no-repeat;
   background-size:100%;
   padding: 5px 5px;
