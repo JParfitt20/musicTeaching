@@ -125,8 +125,8 @@ p{
 
   background:linear-gradient( to top, #603,black, transparent 50%) right/13%,
              linear-gradient( white, transparent 20%) right/13%,
-             url(img/music-notes.jpg) right/13% repeat-y,
-             url(img/music-notes.jpg) left/13% repeat-y;
+             url(img/notes.PNG) right/13% repeat-y,
+             url(img/notes.PNG) left/13% repeat-y;
 
 }
 
