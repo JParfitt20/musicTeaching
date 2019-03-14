@@ -5,6 +5,7 @@
       <title>Joanna Parfitt Music Tuition &vert;Contact</title>
       <link rel="stylesheet" href="styles.css">
       <meta name=" viewport" content ="width=device-width">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
 
     <body>
@@ -47,12 +48,26 @@
           </div>
 
 
-          <button type="submit">Send Message</button>
+          <button type="button" id="button">Send Message</button>
 
 
         </form>
 
+        <div id="alert" class = "modal">
+          <p>Thank you for trying to contact me!</p>
+          <p>Unfortunately this form isn't working at the moment, but you can contact me through facebook <a href="https://www.facebook.com/Joannamusictuition/" target="_blank">here</a> or send me a direct email <a href="mailto:j.nknight@hotmail.co.uk">here</a>.</p>
+          <button id="close">close</button>
+        </div>
 
+        <script>
+            $('.modal').hide();
+            $('#button').on('click',function(){
+              $('.modal').show();
+          });
+          $('#close').on('click', function(){
+            $('.modal').hide();
+          });
+        </script>
 
       <footer class="main-footer">
          &copy; Joanna Parfitt 2019

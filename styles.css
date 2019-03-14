@@ -199,6 +199,24 @@ button{
   background: #ffcce6;
 }
 
+.modal{
+    display:none;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    top:0;
+    left:auto;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: white; /* Fallback color */
+    border: 2px #603;
+
+}
+
+a{
+  colour:#603;
+}
+
+
 
 /*text -------------------------------------------------------------------------------------*/
 body{
@@ -262,12 +280,12 @@ li{
 
 
 /*Pseudo classes-------------*/
-a:link{
+.main-nav a:link{
   text-decoration:none;
   color: white;
 }
 
-a:visited{
+.main-nav a:visited{
   color: white;
 }
 
